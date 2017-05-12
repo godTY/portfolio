@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+/* 제목 */
+.title {
+	font-size: 28px;
+	text-align: center;
+	border-style: solid;
+	font-weight: bold;
+	border-width: 3px;
+	border-color: #AAAAAA;
+	color: #e85151;
+	width: 40%;
+	padding: 10px; /* 위 오른쪽 아래 왼쪽 */
+	margin: 20px auto; /* 가운데 정렬 기능, 20px: 위 아래, auto: 오른쪽 왼쪽*/
+}
+
+.board_list {width:100%;border-top:2px solid #252525;border-bottom:1px solid #ccc}
+
+
+.subtitle {
+	color: #e85151;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.btn {
+	border-radius: 3px;
+	padding: 5px 11px;
+	font-style: 맑은고딕;
+	color: #fff !important;
+	display: inline-block;
+	background-color: #6b9ab8;
+	border: 1px solid #8699fc;
+	vertical-align: middle
+}
+
+.search {
+	option-align: left;
+}
+
+.dfn {
+	font-style: italic;
+}
+
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+/* 내용 */
+.content {
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+	height: 80% padding: 10px; /* 위 오른쪽 아래 왼쪽 */
+}
+
+/* 하단 메뉴 */
+.bottom {
+	text-align: left;
+	width: 100%;
+	height: 20%;
+	padding: 10px; /* 위 오른쪽 아래 왼쪽 */
+}
+
+/* 테이블에 CSS 적용 */
+.table {
+	margin: 0 auto;
+	border-color: #AAAAAA;
+	border-width: 3px;
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+TH {
+	border: 1px;
+	border-color: #D3D3D3;
+	border-style: solid;
+	color: #FFFFFF;
+	background-color: #ff8c0b;
+}
+
+A:link { /* A 태그의 링크 속성 */
+	text-decoration: none;
+	color: black;
+}
+
+A:hover { A 태그에 마우스가 올라 갔을 경우
+	text-decoration: none;
+	background-color: gray;
+	color: white;
+} 
+
+.board_list {width:100%;border-top:2px solid #252525;border-bottom:1px solid #ccc}
+.board_list thead th:first-child{background-image:none}
+.board_list thead th {border-bottom:1px solid #ccc;padding:12px 0 13px 0;color:#3b3a3a;vertical-align:middle}
+.board_list tbody td {border-top:1px solid #ccc;padding:10px 0;text-align:center;vertical-align:middle}
+.board_list tbody tr:first-child td {border:none}
+.board_list tbody td.title {text-align:left; padding-left:20px}
+.board_list tbody td a {display:inline-block}
+
+frm {
+	
+}
+
+
+body {
+	background: #f2f1f2;
+}
+
+
+/* a:hover {text-decoration: none; color: #656565;} */
+
+A:visited { /* A 태그의 링크를 방문한 경우 */
+	text-decoration: none;
+	color: black;
+}
