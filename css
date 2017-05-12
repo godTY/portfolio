@@ -1,5 +1,5 @@
 @CHARSET "UTF-8";
-/* 제목 */
+
 .title {
 	font-size: 28px;
 	text-align: center;
@@ -9,8 +9,8 @@
 	border-color: #AAAAAA;
 	color: #e85151;
 	width: 40%;
-	padding: 10px; /* 위 오른쪽 아래 왼쪽 */
-	margin: 20px auto; /* 가운데 정렬 기능, 20px: 위 아래, auto: 오른쪽 왼쪽*/
+	padding: 10px; 
+	margin: 20px auto;
 }
 
 .board_list {width:100%;border-top:2px solid #252525;border-bottom:1px solid #ccc}
@@ -51,7 +51,7 @@ textarea {
 	font-size: 24px;
 	text-align: center;
 	width: 100%;
-	height: 80% padding: 10px; /* 위 오른쪽 아래 왼쪽 */
+	height: 80% padding: 10px; 
 }
 
 /* 하단 메뉴 */
@@ -59,10 +59,10 @@ textarea {
 	text-align: left;
 	width: 100%;
 	height: 20%;
-	padding: 10px; /* 위 오른쪽 아래 왼쪽 */
+	padding: 10px; 
 }
 
-/* 테이블에 CSS 적용 */
+
 .table {
 	margin: 0 auto;
 	border-color: #AAAAAA;
@@ -79,12 +79,12 @@ TH {
 	background-color: #ff8c0b;
 }
 
-A:link { /* A 태그의 링크 속성 */
+A:link { 
 	text-decoration: none;
 	color: black;
 }
 
-A:hover { A 태그에 마우스가 올라 갔을 경우
+A:hover { 
 	text-decoration: none;
 	background-color: gray;
 	color: white;
@@ -110,7 +110,7 @@ body {
 
 /* a:hover {text-decoration: none; color: #656565;} */
 
-A:visited { /* A 태그의 링크를 방문한 경우 */
+A:visited {
 	text-decoration: none;
 	color: black;
 }
